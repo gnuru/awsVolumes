@@ -7,6 +7,12 @@ List and delete available AWS volumes.
 * aws cli tools installed, and credentials configured.
 * jq json parser
 
+## Configuration.
+Uses date format to specify age:
+<code>
+ageDate=`date --date="5 weeks ago" `
+ageTicks=`date --date="5 weeks ago" +%s`
+</code>
 
 ## Typical Output:
 
